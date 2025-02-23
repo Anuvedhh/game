@@ -47,7 +47,7 @@ canvas {
 /* Controls */
 .controls {
     position: absolute;
-    bottom: 20px;
+    bottom: 14px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -70,7 +70,7 @@ canvas {
 .movement {
     position: absolute;
     right: 50px;
-    bottom: 50px;
+    bottom: 14px;
     display: flex;
     gap: 20px;
 }
@@ -78,5 +78,5 @@ canvas {
 .fire {
     position: absolute;
     left: 20px;
-    bottom: 20px;
+    bottom: 14px;
 }

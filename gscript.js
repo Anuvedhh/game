@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
 function resetGame() {
     score = 0;
     gameOver = false;
-    player = { x: canvas.width / 2, y: canvas.height - 120, width: 70, height: 70, color: 'blue', bullets: [] };
+    player = { x: canvas.width / 2, y: canvas.height - 120, width: 50, height: 50, color: 'blue', bullets: [] };
     enemies = [];
     moveLeft = false;
     moveRight = false;
